@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: orange;
+    
+}
+
+.animated {
+    animation: animation 3s;
+}
+
+.links {
+    text-align: left;
+    border: 2px solid black;
+    display: inline-block;
+    color: chocolate;
+    font-family: MyCustomFont;
+    background: linear-gradient(90deg,black,antiquewhite);
+    
+}
+
+h1 {
+    border: 1px solid black;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    font-family: MyCustomFont;
+
+}
+
+@font-face {
+    font-family: MyCustomFont;
+    font-size: large;
+   src: url(assets/fonts/Backyard\ Brawl.otf);
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+a {
+    color: inherit;
+}
+
+li {
+    text-align: left;
+}
+
+.images {
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+p {
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.iframe-one {
+    transition: 0.3s ease-in-out;
+}
+
+.iframe-one:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+
+  .rishon {
+    text-align: right;
+  }
+
+  .llorient {
+    text-align: center;
+  }
+
+  .wolfsberger {
+    text-align: left;
+  }
+
+  li {
+    display: flex;
+  }
+
+  video {
+    display: flex;
+  }
+
+  @keyframes animation {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+      
+    }
+  }
+
